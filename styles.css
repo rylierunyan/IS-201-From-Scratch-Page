@@ -1,0 +1,115 @@
+/* Body Style */
+body {
+    font-family: 'Oswald', sans-serif; /* Updated font */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F8EDEB;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #F3D1CB;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #EBA89B;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #BD7559;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #EBA89B;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #BD7559;
+    border-bottom: 2px solid #BD7559;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.section img {
+    width: 100%;
+    max-width: 600px; /* Increased size */
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 20px auto; /* Centered with margin below */
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #BD7559;
+    text-align: center; /* Center the text */
+}
+
+.section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #F3D1CB;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #EBA89B;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}

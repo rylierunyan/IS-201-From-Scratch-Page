@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Medicare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet"> <!-- Link to Oswald font -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Changed to sans-serif */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #F8EDEB;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #EBA89B;
+            color: #333;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #D48F7A;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif; /* Keep headers in Oswald */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #D48F7A;
+            padding: 15px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        nav a:hover {
+            color: #BD7559;
+            border-bottom: 2px solid #BD7559;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #BD7559;
+            font-family: 'Oswald', sans-serif; /* Keep headers in Oswald */
+        }
+        .section h3 {
+            font-size: 1.75rem;
+            margin-bottom: 15px;
+            color: #BD7559;
+            font-family: 'Oswald', sans-serif; /* Keep headers in Oswald */
+        }
+        .section h4 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #D48F7A;
+            font-family: 'Oswald', sans-serif; /* Keep headers in Oswald */
+        }
+        .section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .list-item {
+            margin-bottom: 15px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #BD7559;
+        }
+        .back-to-top {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #BD7559;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .back-to-top:hover {
+            background-color: #D48F7A;
+        }
+        footer {
+            background-color: #EBA89B;
+            color: #333;
+            text-align: center; /* Centered text */
+            padding: 20px;
+            border-top: 4px solid #D48F7A;
+            position: relative; /* Adjusted to maintain footer position */
+            bottom: 0; /* Stays at the bottom */
+            width: 100%; /* Full width */
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Understanding Medicare</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="medicare.html">Understanding Medicare</a>
+            <a href="contact.html">Contact</a> <!-- Update this link -->
+        </nav>
+        
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <!-- Understanding Medicare Section -->
+        <div id="understanding-medicare" class="section">
+            <h2>Understanding Medicare</h2>
+            <ol>
+                <li>
+                    Medicare Overview
+                    <p>Medicare is a federal health insurance program primarily for:</p>
+                    <ul>
+                        <li class="list-item">People aged 65 and older</li>
+                        <li class="list-item">Younger individuals with certain disabilities</li>
+                    </ul>
+                    <p>While Medicare covers many healthcare costs, it doesn’t cover everything. Here's a quick overview of its parts:</p>
+                </li>
+
+                <li>
+                    Medicare Parts
+                    <ul>
+                        <li class="list-item"><span class="highlight">Part A (Hospital Insurance):</span> Covers inpatient hospital stays, care in a skilled nursing facility, hospice care, and some home health care.</li>
+                        <li class="list-item"><span class="highlight">Part B (Medical Insurance):</span> Covers certain doctors' services, outpatient care, medical supplies, and preventive services.</li>
+                        <li class="list-item"><span class="highlight">Part D (Prescription Drug Coverage):</span> Helps cover the cost of prescription drugs.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    Why Consider Medicare Advantage and Supplement Plans?
+                    <ul>
+                        <li>
+                            <span class="highlight">Medicare Advantage Plans (Part C)</span>
+                            <ul>
+                                <li class="list-item"><span class="highlight">Comprehensive Coverage:</span> Medicare Advantage plans offer an alternative to Original Medicare. They often include Part A, Part B, and sometimes Part D, all bundled together. Many plans offer additional benefits like vision, dental, and hearing coverage.</li>
+                                <li class="list-item"><span class="highlight">Cost-Effective:</span> Often include lower premiums and out-of-pocket costs compared to separate policies.</li>
+                                <li class="list-item"><span class="highlight">Network-Based:</span> Typically use provider networks to deliver care, which can provide more coordinated services.</li>
+                                <li class="list-item"><span class="highlight">Wellness Programs:</span> Many plans offer wellness programs and benefits that promote healthy living.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="highlight">Medicare Supplement Plans (Medigap)</span>
+                            <ul>
+                                <li class="list-item"><span class="highlight">Fills Coverage Gaps:</span> Medigap plans are designed to cover out-of-pocket costs not covered by Original Medicare, such as copayments, coinsurance, and deductibles.</li>
+                                <li class="list-item"><span class="highlight">Flexibility:</span> Allows you to see any doctor or specialist that accepts Medicare, without the need for referrals.</li>
+                                <li class="list-item"><span class="highlight">Financial Predictability:</span> Provides more predictable healthcare costs, making it easier to budget for medical expenses.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8Jr_vJ8tDUU?si=F5j2xHVGDvG8NYdq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!-- Back to Top Button -->
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 Understanding Medicare. All rights reserved.
+    </footer>
+
+</body>
+</html>
